@@ -8,7 +8,6 @@ export default function TabThree() {
       <h2>Tab Three, subdependency imported from esm: @material-ui/icons/esm/Chat</h2>
         <ErrorBoundary>
         <MyEsmChatIcon /></ErrorBoundary>
-      <p>(both icons should render above)</p>
     </div>
   );
 }
