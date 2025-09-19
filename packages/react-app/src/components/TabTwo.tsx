@@ -4,7 +4,7 @@ import ErrorBoundary from "./ErrorBoundary";
 export default function TabTwo() {
   return (
     <div style={{ padding: 20 }}>
-      <h2>Example Two (directly from through dependency)</h2>
+      <h2>Example Two (directly from cjs through dependency)</h2>
       <ErrorBoundary>
         <MyChatIcon />
       </ErrorBoundary>
